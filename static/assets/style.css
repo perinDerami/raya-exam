@@ -1,0 +1,136 @@
+* {
+    border:0;
+    margin:0;
+    padding:0;
+    line-height: 1.2;
+}
+body {
+    background-color: grey;
+}
+.img {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../images/friendly-shop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact {
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 800px;
+    background: linear-gradient(40deg, #ff4d4d, #0dcaf0);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+h3 {
+    color:black;
+    font-size: 10px;
+}
+.grid-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+ul {
+    padding: 20px;
+    list-style-type: none;
+}
+ul li {
+    padding: 10px;
+    width: 20%;
+    background-color: white ;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.grid-items img {
+    height: 80px;
+    weight: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+h4 {
+    margin-top: 15px;
+    font-size: 13px;
+}
+a button {
+    position: absolute;
+    background-color: #0096FF;
+    top: 45%;
+    margin-left: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+a button:hover {
+    height: 90px;
+    width: 150px;
+    top: 30%;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+.basket {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border:none;
+    background-color: none;
+}
+.basket::after {
+    content: "2";
+    color: red;
+    font-size: 10px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.addbasket {
+    display: none;
+    position:absolute;
+    flex-direction: column;
+    height:50px;
+    width: 200px;
+    background-color: #50C878;
+    text-align: end;
+    top: 10%;
+    right: 1%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.activeProduct {
+    display: block;
+}
+.addbasket span {
+    font-size: 20px;
+}
